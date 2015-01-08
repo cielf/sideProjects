@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+<title>Snark!</title>
+<link type="text\css" rel="stylesheet" href="snark.css"/>
+</head>
+
+
+
+
+<body >
+<div id="firstDiv"> Here's a body </div>
+
+<p style ="text-align:center">
+<img src ="cat.png" style ="position : relative">
+</p>
+<!--
+<script>
+var cat = document.querySelector ("img") ;
+var angle = 0 , lastTime = null ;
+function animate(time) {
+  if ( lastTime != null )
+    angle += (time - lastTime) * 0.001;
+  lastTime = time ;
+  cat.style.top = ( Math.sin(angle) * 20) + "px";
+  cat.style.left = ( Math.cos(angle) * 200) + "px";
+  requestAnimationFrame ( animate ) ;
+}
+requestAnimationFrame ( animate ) ;
+
+</script>
+--!>
+
+<script src="snark2.js"></script>
+
+
+</body>
