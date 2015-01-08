@@ -257,8 +257,9 @@ function Snark(){
   currElement = firstDiv.appendChild(textElement);   
 */
   
- var stanza = snarkStanza(firstDiv, textForSnark[0], irrationalStrings, document, 60, 10, 10, 750, 750);
-
+ for(var count = 0; count< textForSnark.length; count++){
+     var stanza = snarkStanza(firstDiv, textForSnark[count], irrationalStrings, document, 60, 10, 10, 750, 750);
+  }
 }
 /*
 requestAnimationFrame(Snark());
