@@ -8,7 +8,7 @@
 
 
 <body >
-<div id="firstDiv"> Here's a body </div>
+<div id="firstDiv">  </div>
 
 <p style ="text-align:center">
 <img src ="cat.png" style ="position : relative">
